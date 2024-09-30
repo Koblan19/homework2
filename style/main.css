@@ -60,10 +60,10 @@ a,
 .menu ul > li {
   text-align: right;
 }
-h2.article ~ p {
+.article h2 ~ p {
   background-color: orange;
   color: blue;
 }
-h3.sidebar .info {
+.sidebar h3 .info {
   font-size: 22px;
 }

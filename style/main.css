@@ -1,15 +1,13 @@
 p {
   background-color: red;
 }
-h1,
-h2,
-h3 {
+#header {
   background-color: yellow;
 }
 .highlight {
   font-size: 20px;
 }
-.external a {
+a.external {
   background-color: blue;
 }
 .post,
@@ -60,10 +58,10 @@ a,
 .menu ul > li {
   text-align: right;
 }
-.article h2 ~ p {
+.article h2 + p {
   background-color: orange;
   color: blue;
 }
-.sidebar h3 .info {
+.sidebar h3 + .info {
   font-size: 22px;
 }
